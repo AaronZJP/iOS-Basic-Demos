@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		932762921EBAF6C400ABA9F3 /* WaterFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 932762911EBAF6C400ABA9F3 /* WaterFlow.m */; };
+		932762951EBB100B00ABA9F3 /* FlowLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932762941EBB100B00ABA9F3 /* FlowLayoutViewController.m */; };
+		932762981EBB10F800ABA9F3 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 932762971EBB10F800ABA9F3 /* CustomCollectionViewCell.m */; };
+		93541DC11EBB256700D92F52 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93541DC01EBB256700D92F52 /* CustomCollectionViewCell.xib */; };
 		93FEA1501EB85F8C00493841 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FEA14F1EB85F8C00493841 /* main.m */; };
 		93FEA1531EB85F8C00493841 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FEA1521EB85F8C00493841 /* AppDelegate.m */; };
 		93FEA1561EB85F8C00493841 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FEA1551EB85F8C00493841 /* ViewController.m */; };
@@ -23,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		932762901EBAF6C400ABA9F3 /* WaterFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFlow.h; sourceTree = "<group>"; };
+		932762911EBAF6C400ABA9F3 /* WaterFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFlow.m; sourceTree = "<group>"; };
+		932762931EBB100B00ABA9F3 /* FlowLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowLayoutViewController.h; sourceTree = "<group>"; };
+		932762941EBB100B00ABA9F3 /* FlowLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowLayoutViewController.m; sourceTree = "<group>"; };
+		932762961EBB10F800ABA9F3 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		932762971EBB10F800ABA9F3 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
+		93541DC01EBB256700D92F52 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
 		93FEA14B1EB85F8C00493841 /* CollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FEA14F1EB85F8C00493841 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93FEA1511EB85F8C00493841 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +66,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9327628F1EBAF6AE00ABA9F3 /* WaterFlow */ = {
+			isa = PBXGroup;
+			children = (
+				932762901EBAF6C400ABA9F3 /* WaterFlow.h */,
+				932762911EBAF6C400ABA9F3 /* WaterFlow.m */,
+				932762931EBB100B00ABA9F3 /* FlowLayoutViewController.h */,
+				932762941EBB100B00ABA9F3 /* FlowLayoutViewController.m */,
+				932762961EBB10F800ABA9F3 /* CustomCollectionViewCell.h */,
+				932762971EBB10F800ABA9F3 /* CustomCollectionViewCell.m */,
+				93541DC01EBB256700D92F52 /* CustomCollectionViewCell.xib */,
+			);
+			name = WaterFlow;
+			sourceTree = "<group>";
+		};
 		93FEA1421EB85F8C00493841 = {
 			isa = PBXGroup;
 			children = (
@@ -74,8 +99,7 @@
 		93FEA14D1EB85F8C00493841 /* CollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				93FEA1511EB85F8C00493841 /* AppDelegate.h */,
-				93FEA1521EB85F8C00493841 /* AppDelegate.m */,
+				9327628F1EBAF6AE00ABA9F3 /* WaterFlow */,
 				93FEA1791EB87D4200493841 /* BaseCollectionView */,
 				93FEA14E1EB85F8C00493841 /* Supporting Files */,
 			);
@@ -85,6 +109,8 @@
 		93FEA14E1EB85F8C00493841 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				93FEA1511EB85F8C00493841 /* AppDelegate.h */,
+				93FEA1521EB85F8C00493841 /* AppDelegate.m */,
 				93FEA18D1EB9C2B700493841 /* galaxy.jpg */,
 				93FEA15F1EB85F8C00493841 /* Info.plist */,
 				93FEA15C1EB85F8C00493841 /* LaunchScreen.storyboard */,
@@ -175,6 +201,7 @@
 				93FEA15E1EB85F8C00493841 /* LaunchScreen.storyboard in Resources */,
 				93FEA16B1EB8693D00493841 /* test.png in Resources */,
 				93FEA16D1EB872E000493841 /* SupplementaryView.xib in Resources */,
+				93541DC11EBB256700D92F52 /* CustomCollectionViewCell.xib in Resources */,
 				93FEA15B1EB85F8C00493841 /* Assets.xcassets in Resources */,
 				93FEA18E1EB9C2B700493841 /* galaxy.jpg in Resources */,
 				93FEA1591EB85F8C00493841 /* Main.storyboard in Resources */,
@@ -190,10 +217,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				93FEA1561EB85F8C00493841 /* ViewController.m in Sources */,
+				932762951EBB100B00ABA9F3 /* FlowLayoutViewController.m in Sources */,
+				932762921EBAF6C400ABA9F3 /* WaterFlow.m in Sources */,
 				93FEA1531EB85F8C00493841 /* AppDelegate.m in Sources */,
 				93FEA1501EB85F8C00493841 /* main.m in Sources */,
 				93FEA1761EB8736900493841 /* SupplementaryView.m in Sources */,
 				93FEA1671EB8628B00493841 /* MainCollectionViewCell.m in Sources */,
+				932762981EBB10F800ABA9F3 /* CustomCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
